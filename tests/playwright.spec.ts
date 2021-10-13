@@ -7,6 +7,6 @@ test('basic test', async ({ page }) => {
     });
     await test.step('Validate title', async () => {
         const title = page.locator('.navbar__inner .navbar__title');
-        await expect(title).toHaveText('Playwright');
+        await expect(title).toHaveText('Playwright1');
     });
 });
